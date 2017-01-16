@@ -1,0 +1,253 @@
+@font-face {
+	font-family: boldItalic-webfont;
+	src: url(OpenSans-BoldItalic-webfont.ttf);
+}
+@font-face {
+	font-family: bold-webfont;
+	src: url(OpenSans-Bold-webfont.ttf);
+}
+@font-face {
+	font-family: extraBoldItalic-webfont;
+	src: url(OpenSans-ExtraBoldItalic-webfont.ttf);
+}
+@font-face {
+	font-family: italic-webfont;
+	src: url(OpenSans-Italic-webfont.ttf);
+}
+@font-face {
+	font-family: lightItalic-webfont;
+	src: url(OpenSans-LightItalic-webfont.ttf);
+}
+@font-face {
+	font-family: light-webfont;
+	src: url(OpenSans-Light-webfont.ttf);
+}
+@font-face {
+	font-family: regular-webfont;
+	src: url(OpenSans-Regular-webfont.ttf);
+}
+@font-face {
+	font-family: semiboldItalic-webfont;
+	src: url(OpenSans-SemiboldItalic-webfont.ttf);
+}
+@font-face {
+	font-family: semibold-webfont;
+	src: url(OpenSans-Semibold-webfont.ttf);
+}
+
+div {
+	font-family: regular-webfont;
+}
+
+hr {
+	margin: 0px;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	color: #000000;
+	cursor: pointer;
+}
+
+@media (max-width: 768px){
+	.container {
+		width: 100%;
+		padding: 0px !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.macho-product-intro-container {
+		padding: 0 70px;
+	}
+}
+
+.macho-main-title {
+	padding-left: 60px;
+}
+
+.macho-main-menu-a {
+	
+}
+.macho-main-menu-contact {
+	border: 1px solid #EB6662;
+    padding: 5px 15px !important;
+    margin-left: 15px;
+    color: black;
+    border-radius: 18px;
+    top: 8px;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-right: 50px;
+}
+
+.macho-main-menu-a:active {
+	color: #EB6662;
+}
+
+.macho-section-title {
+	font-family: semibold-webfont;
+	font-size: 20px;
+	background-color: #F4F4F4;
+	padding: 20px 0;
+}
+
+.macho-download-app-button {
+    color: #ffffff;
+    background-color: #EB6662;
+    margin: 30px 50px;
+    padding: 20px 0;
+    border-radius: 35px;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.macho-title {
+	font-family: semibold-webfont;
+	font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.macho-product-intro-wrapper {
+	padding-top: 40px;
+}
+
+.macho-product-content {
+	color: #B1B1B1;
+}
+
+.macho-full {
+	margin:0 auto;
+	width: 100%;
+}
+
+.container {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.macho-no-padding{
+	padding: 0;
+}
+
+.macho-no-border {
+	border: 0;
+}
+
+.macho-team-section {
+	margin-bottom: -5px;
+}
+
+.macho-about-us-container {
+	background-color: #0889FF;
+}
+
+.macho-about-us-wrapper {
+	height: 400px;
+	padding: 100px 50px;
+	color: #ffffff;
+}
+
+.macho-contact-us-button {
+    font-size: 11px;
+    display: block;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 5px;
+    margin: 30px 120px;
+    border-radius: 12px;
+}
+
+.macho-footer {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.macho-footer-wrapper {
+	padding: 25px 60px 10px 60px;
+}
+
+.macho-footer-li{
+    margin: 10px 20px 10px 0px;
+}
+
+.macho-footer-a{
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.macho-footer-ul {
+	padding: 0px;
+}
+
+.macho-footer-title {
+	display: block;
+    margin-bottom: 10px;
+}
+
+.macho-social-icon {
+	height: 16px;
+	margin-top: 10px;
+    margin-right: 20px;
+}
+
+.macho-arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid black;
+}
+
+/*Override bootstrap style*/
+.navbar {
+	margin-bottom: 0;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navbar-toggle {
+	border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: gray !important;
+}
+
+
+/* CUSTOMIZE THE SLIDER
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+
+
