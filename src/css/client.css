@@ -203,6 +203,19 @@ a {
 	border-bottom: 5px solid black;
 }
 
+.macho-chevron-left, .macho-chevron-right {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+    margin-right: -10px;
+    right: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+
 /*Override bootstrap style*/
 .navbar {
 	margin-bottom: 0;

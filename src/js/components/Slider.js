@@ -29,12 +29,12 @@ export default class Slider extends React.Component {
 					</div>
 					<a className="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" role="button"
 					   data-slide="prev">
-						<i className="fa fa-chevron-left fy-chevron-left" aria-hidden="true"></i>
+						<i className="fa fa-chevron-left macho-chevron-left" aria-hidden="true"></i>
 						<span className="sr-only">Previous</span>
 					</a>
 					<a className="right carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" role="button"
 					   data-slide="next">
-						<i className="fa fa-chevron-right fy-chevron-right" aria-hidden="true"></i>
+						<i className="fa fa-chevron-right macho-chevron-right" aria-hidden="true"></i>
 						<span className="sr-only">Next</span>
 					</a>
 				</div>
